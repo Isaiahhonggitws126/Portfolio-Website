@@ -4,11 +4,15 @@
 		<title>Isaiah Hong</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- stylesheets-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 	<body class="is-preload">
 
@@ -48,19 +52,101 @@
 
 									<h2>Work Experience</h2>
 									<div class="row">
+
+										<!-- Modal Image -->
 										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-										</div>		
-										
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
+											<a href="#" class="image fit" data-toggle="modal" data-target="#exampleModalCenter"><img src="images/ctp.jpg" alt=""></a>
+											
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												<div class="modal-dialog modal-dialog-centered" role="document">
 
 
+												<!-- Modal Content -->	
+												<div class="modal-content">
+													<div class="modal-header">
+
+													<h5 class="modal-title" id="exampleModalLongTitle">Data Science Fellow</h5>
+													
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+													</div>
+													<div class="modal-body">
+													Selected for a technical training program, as one of 183 students out of 400+ applicants. 
+													Learn in-demand technologies like Python 3, Jupyter Notebooks, Pandas, Numpy, Scikit-learn, PyTorch, and SQL as well as industry best practices for exploratory data analysis (EDA), feature engineering, data collection and processing, statistical modeling, data visualization, machine learning techniques, data science process, and big data.
+													Collaborating with a team to build out visualizations of COVID-19 trend across the United States using GCP BigQuery and data studio.
+														
+													</div>
+													<div class="modal-footer">
+													</div>
+												</div>
+												</div>
+											</div>
+										</div>	
+
+										<!-- Modal Image -->
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit" data-toggle="modal" data-target="#exampleModalCenter_1"><img src="images/hra.png" alt=""></a>						
+
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModalCenter_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												<div class="modal-dialog modal-dialog-centered" role="document">
+
+												<!-- Modal Content -->	
+												<div class="modal-content">
+													<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLongTitle">Programmer Analyst Intern</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+													</div>
+													
+													<div class="modal-body">
+													Worked closely with the enterprise data warehouse to aid in writing SQL queries and creating reports. 
+													Assisted in maintaining ad-hoc analysis weekly reports for Home Care Services and Career Services using ETL packages in MSSQL Server Integration and SQL Developer
+													Completed summary dash boards and weekly reporting using SQL Developer and MS Excel pivot tables for COVID-19 Cash Assistance social services.
+														
+													</div>
+													<div class="modal-footer">
+													</div>
+												</div>
+												</div>
+											</div>
+										</div>
+										
+										<!-- Modal Image -->
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit" data-toggle="modal" data-target="#exampleModalCenter_2"><img src="images/kwant.png" alt=""></a>					
+
+											<!-- Modal -->	
+											<div class="modal fade" id="exampleModalCenter_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+												<div class="modal-dialog modal-dialog-centered" role="document">
+
+												<!-- Modal Content -->	
+												<div class="modal-content">
+													<div class="modal-header">
+
+													<h5 class="modal-title" id="exampleModalLongTitle">Data Science Intern</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+													</div>
+													<div class="modal-body">
+													Implemented RESTApi for the construction activity dashboard that labels all activities based on a universal construction cost codes from PostgreSQL database. 
+													Updated the company’s data preprocessing methods including lemmatization, tokenization, and removal of special characters in Python.
+													Analyzed and summarized schedule data sets in Tableau to identify historical trends in construction project delays.
+														
+													</div>
+													<div class="modal-footer">
+													</div>
+												</div>
+												</div>
+											</div>	
+										</div>
+
+														
+						
 										
 									</div>
 								</section>
@@ -69,7 +155,7 @@
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
-									<h2>Contact Me</h2>
+									<h2>Projects</h2>
 								</header>
 								<div class="row">
 									<div class="col-4 col-6-medium col-12-small">
@@ -123,6 +209,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		  
 
 	</body>
 </html>
