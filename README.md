@@ -2,6 +2,9 @@
 
 Portfolio website to display my projects for employers to look at.
 
+https://isaiah-hong.com/
+
+
 ### Cloning repo
 
 In case if you want to take a look at the code, I have included a git clone command for you below to run for your own purposes.
